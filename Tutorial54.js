@@ -2,9 +2,9 @@
 
 
 
-function myfunc2(name) {
+function myfunc2(name1) {
     console.log("Inside my func2");
-    console.log(`your name is ${name}`);
+    console.log(`your name is ${name1}`);
 }
 
 // function myFunc(a) {
@@ -14,7 +14,7 @@ function myfunc2(name) {
 
 function myFunc(Callback){
     console.log("Hello there I am function and i can...");
-    Callback("Aman");
+    Callback("Aman1");
 }
 
 myFunc(myfunc2);
