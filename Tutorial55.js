@@ -1,5 +1,5 @@
 // Function returning function
-function myFunc() {
+function myFunc1() {
     function hello(){
         // console.log("Hello world");
         return "Hello world"
@@ -7,7 +7,8 @@ function myFunc() {
     return hello;  //here function is returning a function
 }
 
-const ans = myFunc();  //ans became a function
+const ans = myFunc1();  //ans became a function
 console.log(ans);
 console.log(ans());
+console.log("helloworld")
 // ans();
