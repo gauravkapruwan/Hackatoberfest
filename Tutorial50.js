@@ -6,7 +6,7 @@
 // Let and const are block scope => Remember Let and const are only accessable inseide the block not accesable outside the block
 
 {
-    let firstName = "Aman";
+    let firstName = "Radhe";
     console.log(firstName);     //can access coz it is inside the block
     
 }
@@ -15,7 +15,7 @@
 // *************************************************************************************
 
 {
-    const firstName = "Rajesh";      //We can make a same variable name 
+    const firstName = "shyam";      //We can make a same variable name 
     // console.log(firstName);
     console.log(firstName);    
 }
@@ -44,8 +44,8 @@ console.log(SecondName);     // In case of var we can access it by inside or out
 
 // Real world example => let and const can't be accessed only Var can ve accessed
 if(true){
-    var Name = "Simran";
-    // let Name = "Simran";
+    var Name = "Simrankaur";
+    // let Name = "Simrankaur";
     console.log(Name);
 }
 console.log(Name)
