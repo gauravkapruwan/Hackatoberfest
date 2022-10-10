@@ -3,8 +3,8 @@
 // used with object 
 // and mostly used in react
 
-const person = {
-    firstName: "Aman",
+const person1 = {
+    firstName: "Amangwari",
     gender: "male",
 }
 
@@ -20,4 +20,4 @@ function printDetails({firstName, gender, age}) {
     console.log(age);   //age is not defined in object
 }
 
-printDetails(person);
+printDetails(person1);
